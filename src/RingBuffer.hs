@@ -1,6 +1,6 @@
 -- Using Idiomatic Haskell (Vectors + IORefs)
 
-module RingBuffer.SPSC.Idiomatic (
+module RingBuffer.SPSC (
     SPSCRingBuffer,
     initRb,
     tryPushRb,

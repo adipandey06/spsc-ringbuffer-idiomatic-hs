@@ -58,7 +58,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules:  RingBuffer.SPSC
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -73,7 +73,7 @@ library
     hs-source-dirs:   src
 
     -- Base language which the package is written in.
-    default-language: Haskell98
+    default-language: GHC2021
 
 test-suite spsc-ringbuffer-idiomatic-hs-test
     -- Import common warning flags.
