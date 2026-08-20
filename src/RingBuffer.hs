@@ -3,8 +3,8 @@
 module RingBuffer.SPSC.Idiomatic (
     SPSCRingBuffer,
     initRb,
-    pushRb,
-    popRb,
+    tryPushRb,
+    tryPopRb,
     destroyRb,
     getHead,
     getTail
