@@ -100,4 +100,5 @@ test-suite spsc-ringbuffer-idiomatic-hs-test
     -- Test dependencies.
     build-depends:
         base ^>=4.18.3.0,
-        spsc-ringbuffer-idiomatic-hs
+        spsc-ringbuffer-idiomatic-hs,
+        spsc-ringbuffer-tracer
